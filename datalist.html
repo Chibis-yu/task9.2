@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Autofill Field</title>
+</head>
+<body>
+<form>
+  <label for="browser">Выберите свой браузер:</label>
+  <input list="browsers" id="browser" name="browser" required>
+  <datalist id="browsers">
+    <option value="Chrome">
+    <option value="Firefox">
+    <option value="Safari">
+      <option value="Opera">
+      <option value="Edge">
+  </datalist>
+    <button type="submit">Отправить</button>
+</form>
+</body>
+</html>
