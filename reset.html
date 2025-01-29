@@ -22,5 +22,13 @@
   </div>
 </form>
 <p id="log"></p>
+<script>
+  const form = document.getElementById('my-form');
+  const log = document.getElementById('log');
+
+  form.addEventListener('reset', function () {
+    log.textContent = 'Форма была сброшена!';
+  });
+</script>
 </body>
 </html>
